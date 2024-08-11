@@ -1,0 +1,27 @@
+{
+  "name": "Open in Freedium",
+  "description": "Read Member-only medium articles for free using Freefium",
+  "version": "1.1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "host_permissions": [],
+  "action": {
+    "default_popup": "options.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "icons": {
+    "32": "icons/logo-32.png",
+    "48": "icons/logo-48.png",
+    "64": "icons/logo-64.png",
+    "128": "icons/logo-128.png"
+  }
+}
